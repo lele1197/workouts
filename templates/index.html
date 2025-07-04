@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Analisi Allenamenti 2025</title>
+</head>
+<body>
+    <h1>📊 Analisi Allenamenti 2025</h1>
+
+    <h2>📈 Serie Totali per Gruppo Muscolare - Andamento Mensile</h2>
+    {{ grafico1 | safe }}
+
+    <h2>📊 Allenamenti per Mese (Colorati per Gruppo)</h2>
+    {{ grafico2 | safe }}
+
+    <h2>📅 Allenamenti per Settimana</h2>
+    {{ grafico3 | safe }}
+
+    <h2>📉 Serie Totali e Allenamenti per Settimana (2 Assi)</h2>
+    {{ grafico4 | safe }}
+
+    <h2>📊 Volume Medio per Esercizio (Minimo 20 Esecuzioni)</h2>
+    {{ grafico5 | safe }}
+
+    <h2>🗓️ Frequenza Mensile degli Esercizi (Heatmap)</h2>
+    {{ grafico6 | safe }}
+
+    <h2>📊 Volume Medio per Serie per Gruppo Muscolare (Heatmap)</h2>
+    {{ grafico7 | safe }}
+</body>
+</html>
